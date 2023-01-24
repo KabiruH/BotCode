@@ -3,7 +3,7 @@ import YourBotArmy from "./Yourbot";
 import BotsPage from "./BotsPage";
 
 
-const botsAvailable = 'http://localhost:3000/bots'
+const botsAvailable = 'https://bots-taupe.vercel.app/bots'
 
 
 

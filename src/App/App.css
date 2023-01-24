@@ -37,26 +37,6 @@
   }
 }
 
-.bot-collection {
-  min-height: 100%;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-gap: 20px;
-  align-items: center;
-
-}
-
-.bot-card {
-  
-  padding: 20px;  
-  margin-right: 16px;
-  outline-style: groove;
-  size: auto;
-  background-color: antiquewhite;
-  grid-area: auto;
-
-}
-
 body {
   font-size: 17px;
   color: black;
