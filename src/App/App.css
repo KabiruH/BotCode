@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bot-collection {
+  min-height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  align-items: center;
+
+}
+
+.bot-card {
+  
+  padding: 20px;  
+  margin-right: 16px;
+  outline-style: groove;
+  size: auto;
+  background-color: antiquewhite;
+  grid-area: auto;
+
+}
+
+body {
+  font-size: 17px;
+  color: black;
+  font-family: -apple-system;
+  padding: auto;
+  margin: auto; 
+  max-width: 1000px;
+  background-color: #282c34;
+
+}
+
+.title {
+  color: white;
+  font-family: -apple-system;
+}
