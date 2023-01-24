@@ -3,6 +3,10 @@
 Welcome to Bot Battlr, the one and only spot in the known universe where you can custom build your own Bot Army!
 ## Instructions
 
+To access the Bot use the website 
+
+        flourishing-dusk-b63c65.netlify.app/
+
 This is a React application that displays a list of available bots and their details among other functionalities.
 
     - Fork this repository to your local machine
